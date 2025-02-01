@@ -6,3 +6,4 @@ const tasksController = new TasksController();
 
 tasksRoutes.post("/", tasksController.create);
 tasksRoutes.put("/", tasksController.update);
+tasksRoutes.delete("/", tasksController.delete);
