@@ -1,6 +1,7 @@
 type Task = {
+  id: string;
   title: string;
   description: string;
 };
 
-export const dataBase: Task[] = [];
+export let dataBase: Task[] = [];
