@@ -13,6 +13,12 @@ export const GlobalStyle = createGlobalStyle`
     
     body, button, input, textarea {
         font-family: "Roboto", serif;
+
+    }
+
+    button, input {
+        border: 0;
+        outline: 0;
     }
 
 
