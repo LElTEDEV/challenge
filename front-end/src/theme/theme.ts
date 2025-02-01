@@ -10,5 +10,7 @@ export const theme = {
     white: "#ffffff",
 
     blue_500: "#6370f0",
+
+    text: "#6f718b",
   },
 };
